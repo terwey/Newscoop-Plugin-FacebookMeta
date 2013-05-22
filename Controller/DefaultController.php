@@ -1,6 +1,6 @@
 <?php
 
-namespace Newscoop\NewscoopFacebookMetaBundle\Controller;
+namespace Newscoop\FacebookMetaBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
