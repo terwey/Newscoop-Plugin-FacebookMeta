@@ -1,6 +1,6 @@
 <?php
 
-namespace Newscoop\FacebookMetaBundle\Controller;
+namespace Newscoop\NewscoopFacebookMetaBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -10,6 +10,6 @@ class DefaultController extends Controller
 {
     public function indexAction(Request $request)
     {
-        return $this->render('FacebookMetaBundle:Default:head.tpl');
+        return $this->render('NewscoopFacebookMetaBundle:Default:head.tpl');
     }
 }

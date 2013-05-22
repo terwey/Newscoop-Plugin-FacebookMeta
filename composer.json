@@ -16,7 +16,7 @@
         "newscoop/plugins-installer": "*"
     },
     "autoload": {
-        "psr-0": { "Newscoop\\FacebookMetaBundle\\FacebookMetaBundle": "" }
+        "psr-0": { "Newscoop\\FacebookMetaBundle\\NewscoopFacebookMetaBundle": "" }
     },
     "target-dir": "Newscoop/FacebookMetaBundle",
     "minimum-stability": "dev"

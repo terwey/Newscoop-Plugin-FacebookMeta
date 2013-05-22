@@ -1,9 +1,9 @@
 <?php
 
-namespace Newscoop\FacebookMetaBundle;
+namespace Newscoop\NewscoopFacebookMetaBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class FacebookMetaBundle extends Bundle
+class NewscoopFacebookMetaBundle extends Bundle
 {
 }
