@@ -1,0 +1,23 @@
+{
+    "name": "terwey/newscoop-plugin-facebook-meta",
+    "description": "a proof of concept for the new Newscoop Plugin System",
+    "keywords": ["newscoop", "facebook", "meta"],
+    "version": "0.1",
+    "type": "newscoop-plugin",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Yorick Terweijden",
+            "email": "yorick.terweijden@sourcefabric.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "newscoop/plugins-installer": "*"
+    },
+    "autoload": {
+        "psr-0": { "Newscoop\\Plugin-FacebookMeta\\NewscoopFacebookMetaBundle": "" }
+    },
+    "target-dir": "Newscoop/Plugin-FacebookMeta",
+    "minimum-stability": "dev"
+}
