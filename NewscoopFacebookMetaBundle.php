@@ -1,6 +1,6 @@
 <?php
 
-namespace Newscoop\NewscoopFacebookMetaBundle;
+namespace Newscoop\FacebookMetaBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
