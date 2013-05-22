@@ -31,10 +31,8 @@ function smarty_block_facebook_meta_block($params, $content, &$smarty, &$repeat)
 
     $smarty->smarty->loadPlugin('smarty_shared_escape_special_chars');
     $context = $smarty->getTemplateVars('gimme');
-    $uri = $smarty->getTemplateVars('uri');
 
     $html = '';
-    // $html = print_r($context->article, true);
     if ($context->article->defined) {
         $html .= '<meta property="og:title" content="'.$context->article->name.'" />'."\n";
         $html .= '<meta property="og:type" content="article" />'."\n";
@@ -44,6 +42,8 @@ function smarty_block_facebook_meta_block($params, $content, &$smarty, &$repeat)
         if ($context->article->image->imageurl) {
             $html .= '<meta property="og:image" content="'. $context->article->image->imageurl .'" />'."\n";
         }
+    } else {
+        $html .= '<meta property="og:site_name" content="'. $context->publication->name .'" />'."\n";
     }
 
     return $html;
