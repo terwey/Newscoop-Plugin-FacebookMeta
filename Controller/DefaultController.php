@@ -10,6 +10,6 @@ class DefaultController extends Controller
 {
     public function indexAction(Request $request)
     {
-        return $this->render('NewscoopFacebookMetaBundle:Default:head.tpl');
+        return $this->render('FacebookMetaBundle:Default:head.tpl');
     }
 }
